@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'KPCacheImagView', :exclusive => true do
+  pod "KPCacheImagView", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "KPCacheImagView", :path => "../"
+
+  
+end
